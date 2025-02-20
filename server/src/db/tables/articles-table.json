@@ -1,0 +1,16 @@
+{
+  "TableName": "Articles",
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "articleId",
+      "AttributeType": "S"
+    }
+  ],
+  "KeySchema": [
+    {
+      "AttributeName": "articleId",
+      "KeyType": "HASH"
+    }
+  ],
+  "BillingMode": "PAY_PER_REQUEST"
+}
