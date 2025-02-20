@@ -56,7 +56,7 @@ ReadIt is a backend API designed for a platform where users can create, read, up
     AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
     ```
 
-2.  Configure your DynamoDB tables (if not already created). You can use the AWS CLI or the AWS SDK to create the necessary tables ("Users", "Articles"). There is json files inside table db folder for this purpose.
+2.  Configure your DynamoDB tables (if not already created). You can use the AWS CLI or the AWS SDK to make the necessary tables ("Users", "Articles"). There are JSON files inside the table db folder for this purpose.
 
 ## API Endpoints
 
