@@ -29,14 +29,11 @@ ReadIt is a backend API designed for a platform where users can create, read, up
 
 1.  Clone the repository:
 
-    ```bash
-    git clone [https://github.com/your-username/readit.git](https://www.google.com/search?q=https://github.com/your-username/readit.git)  # Replace with your repo URL
-    ```
 
 2.  Navigate to the project directory:
 
     ```bash
-    cd readit
+    cd read-it
     ```
 
 3.  Install dependencies:
