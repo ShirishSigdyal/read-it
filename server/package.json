@@ -1,12 +1,12 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/app.js",
   "license": "MIT",
   "scripts": {
     "start": "node dist/app.js",
     "dev": "nodemon ./src/app.ts",
-    "build": "npx tsc",
+    "build": "tsc",
     "watch": "tsc -w"
   },
   "dependencies": {

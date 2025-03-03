@@ -22,6 +22,8 @@ export const login = async (req: Request, res: Response) => {
     res.cookie("token", result.token, {
       httpOnly: true,
       sameSite: "strict",
+      secure: true,
+      expires: new Date(Date.now() + 3600000),
     });
 
     res.json({ message: "User logged-in successfully" });

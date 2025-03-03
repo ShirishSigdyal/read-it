@@ -33,8 +33,8 @@ export const getArticles = async (
       EX: 60,
     });
     res.json(articles);
-  } catch (error) {
-    next(error);
+  } catch (error: any) {
+    res.status(500).json({ message: error.message });
   }
 };
 

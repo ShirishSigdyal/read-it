@@ -1,0 +1,5 @@
+.git
+src/**/*.test.ts  
+*.test.ts
+tsconfig.json  
+.env
